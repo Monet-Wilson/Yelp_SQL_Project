@@ -25,5 +25,3 @@ FROM raw_yelp_data
 WHERE state = 'CA'
 ORDER BY numberreview DESC, rating DESC
 LIMIT 10;
-
--- 6. 
